@@ -1,3 +1,9 @@
+#programa que analiza un texto, del cual determina lo siguiente
+#numero de veces que se repite una letra
+#numero de letras que existe en el texto
+#muestra el texto con las palabras invertidas 
+#primera letra del texto
+#ultima letra del texto
 texto=input("introduce el texto a analizar:\n")
 letra1=input("ingresa una letra:\n")
 letra2=input("ingresa otra letra:\n")
