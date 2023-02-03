@@ -3,7 +3,9 @@ nombre=input("Escribe tu nombre: \n")
 print("\n")
 print("Tienes 8 intestos")
 numero_secreto=randint(1,100)
-for intento in range(8):
+#evalua los numero ingresados por el usuario, que se encuentren entre un rango determinado
+#con la finalidad de que el usuario pueda ir delimintando el rango y acierte.
+for intento in range(8): #determina el numero de interacciones que puede tener el usuario
     if intento==0:
         respuesta=int(input("Introduce el numero que crees que es: \n"))
     else:
