@@ -1,0 +1,34 @@
+Este código utiliza el conjunto de datos del Titanic para entrenar un modelo de árbol de decisión
+ que predice si un pasajero sobrevivirá o no. A continuación, se proporciona un resumen de lo que
+ hace cada sección del código:
+
+1. Importa las bibliotecas necesarias para crear el modelo y visualizar los datos.
+
+2. Lee los datos del archivo CSV y los almacena en un DataFrame de Pandas.
+
+3. Crea dos variables, variables y salida, que se utilizarán para entrenar el modelo. 
+   variables es una copia de los datos del Titanic con la columna "Sobreviviente" eliminada, 
+   mientras que salida contiene solo la columna "Sobreviviente".
+
+4. Crea un modelo de árbol de decisión y lo entrena utilizando las variables y la salida del paso
+   anterior.
+
+5. Realiza una predicción en los datos de entrenamiento para evaluar la precisión del modelo.
+
+6. Calcula la matriz de confusión para evaluar la precisión del modelo.
+
+7. Define una función ver_graficas para visualizar la matriz de confusión y la importancia de cada variable
+   en el modelo.
+
+8. Define una función mostrar_sobrevive que toma como entrada la información del pasajero y muestra si el
+   pasajero sobrevivirá o no según el modelo.
+
+9. Define una función datos_usuario que solicita al usuario la información del pasajero y llama a la función
+   mostrar_sobrevive.
+
+10 Ejecuta un bucle while que llama a la función datos_usuario hasta que el usuario indique que no desea 
+   calcular otro pasajero.
+
+En general, este código utiliza un modelo de árbol de decisión para predecir si un pasajero del Titanic
+sobrevivirá o no. Además, proporciona funciones para visualizar la precisión del modelo y permitir que
+el usuario introduzca información de pasajeros y vea si sobrevivirían o no según el modelo.
